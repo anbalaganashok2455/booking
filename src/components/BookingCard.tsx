@@ -178,13 +178,13 @@ export default function BookingCard({ booking }: { booking: Booking }) {
       </div>
       
       <div style={styles.imageContainer}>
-        <img src={booking.imageSrc} alt="Destination" style={styles.image} />
+        <img src={booking.imageSrc||'/8img.jpg'} alt="Destination" style={styles.image} />
         <div style={getBadgeStyle()}>{booking.status}</div>
         
         {/* The overlay curve section */}
         <div style={styles.profileOverlay}>
           <img
-            src={booking.avatarSrc || "https://i.pravatar.cc/150?img=12"}
+            src={booking.avatarSrc || "/7img.jpg"}
             alt="Avatar"
             style={styles.avatar}
           />

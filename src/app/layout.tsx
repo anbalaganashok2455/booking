@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body style={{ 
-        background: "radial-gradient(circle at 90% 40%, #17382f 0%, #151b22 40%, #151b22 100%)", 
+            background: `radial-gradient(circle at 99% 52%, #17382f 0%, transparent 50%),      radial-gradient(circle at 18% 80%, #17382f 0%, transparent 48%),      #151b22`,
         backgroundColor: "#151b22", 
         color: "#fff", 
         margin: 0, 
