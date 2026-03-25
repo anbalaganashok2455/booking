@@ -1,0 +1,8 @@
+{
+  "/group-travel/page": "app/group-travel/page.js",
+  "/page": "app/page.js",
+  "/booking/pending/page": "app/booking/pending/page.js",
+  "/booking/cancelled/page": "app/booking/cancelled/page.js",
+  "/booking/approved/page": "app/booking/approved/page.js",
+  "/booking/past/page": "app/booking/past/page.js"
+}
