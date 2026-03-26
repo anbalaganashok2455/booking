@@ -9,7 +9,7 @@ const styles = {
    display: "flex",
     flexDirection: "column" as const,
     overflow: "hidden",
-    padding: "40px 40px 40px 40px",
+    padding: "40px 40px 0px 40px",
     width:'100%',
     margin: "0 auto",
     

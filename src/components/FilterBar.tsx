@@ -7,7 +7,7 @@ const styles = {
   container: {
     display: "flex",
     alignItems: "flex-end",
-    backgroundColor: "#1b2128",
+    backgroundColor: "#1b1e31",
     padding: "15px 20px",
     borderRadius: "12px",
     gap: "10px",

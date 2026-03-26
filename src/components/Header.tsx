@@ -10,7 +10,7 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "10px 40px",
-    backgroundColor: "transparent",
+    backgroundColor: "#1b1e23",
     color: "#fff",
     boxShadow: "0 0 0 1px #2f8f6b, 0 0 12px rgba(47,143,107,0.6)",
     
@@ -89,7 +89,7 @@ export default function Header() {
   return (
     <header style={styles.header}>
       <div style={styles.logoContainer}>
-        <Link href="/" style={styles.logo}>destiin</Link>
+        <Link href="/" style={styles.logo}>dest<span style={{ color: "#5ec992" }}>i</span>in</Link>
       </div>
       <nav style={styles.nav}>
         <Link href="/" style={getStyle("/")}>

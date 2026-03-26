@@ -7,9 +7,11 @@ import BookingCard, { Booking } from "./BookingCard";
 const styles = {
   grid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+    gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
     gap: "20px",
+    
     width: "100%",
+    paddingBottom:'40px'
   },
   noData: {
     color: "#8a94a6",

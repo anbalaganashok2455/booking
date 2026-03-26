@@ -1,6 +1,4 @@
 {
   "/page": "app/page.js",
-  "/group-travel/page": "app/group-travel/page.js",
-  "/booking/pending/page": "app/booking/pending/page.js",
-  "/booking/cancelled/page": "app/booking/cancelled/page.js"
+  "/booking/pending/page": "app/booking/pending/page.js"
 }

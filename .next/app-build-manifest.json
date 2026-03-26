@@ -21,16 +21,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/booking/layout.js"
     ],
-    "/group-travel/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/group-travel/page.js"
-    ],
-    "/rewards/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/rewards/page.js"
-    ],
     "/booking/cancelled/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -46,10 +36,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/booking/approved/page.js"
     ],
-    "/_not-found/page": [
+    "/group-travel/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/group-travel/page.js"
+    ],
+    "/rewards/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/rewards/page.js"
     ]
   }
 }

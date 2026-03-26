@@ -5,6 +5,7 @@ const styles = {
     padding: "0 40px 40px 40px",
     maxWidth: "1400px",
     margin: "0 auto",
+    width: "100%",
   },
   workingTextContainer: {
     display: "flex",
