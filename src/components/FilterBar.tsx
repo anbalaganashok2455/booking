@@ -54,7 +54,7 @@ const styles = {
   searchBtn: {
     backgroundColor: "#8ce4b0",
     border: "none",
-    borderRadius: "8px",
+    borderRadius: "3px",
     width: "40px",
     height: "35px",
     display: "flex",
@@ -62,9 +62,7 @@ const styles = {
     justifyContent: "center",
     cursor: "pointer",
   },
-  searchIcon: {
-    fontSize: "16px",
-  },
+
 };
 
 export default function FilterBar() {
@@ -113,7 +111,7 @@ export default function FilterBar() {
       </div>
 
       <button style={styles.searchBtn} onClick={handleSearch}>
-        <span style={styles.searchIcon}>🔍</span>
+        <span><img style={{ width: "25px",  }} src="/Search.png" alt="Search" /></span>
       </button>
     </div>
   );

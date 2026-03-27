@@ -12,7 +12,7 @@ const styles = {
     padding: "10px 40px",
     backgroundColor: "#1b1e23",
     color: "#fff",
-    boxShadow: "0 0 0 1px #2f8f6b, 0 0 12px rgba(47,143,107,0.6)",
+   boxShadow: "0 0 0 .5px rgba(66, 94, 83, 0.32), 0 0 19px rgba(72, 158, 122, 0.3)"
     
   },
   logoContainer: {
@@ -49,6 +49,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     gap: "5px",
+    position:'relative' as const
   },
   dot: {
     width: "6px",
@@ -56,6 +57,9 @@ const styles = {
     backgroundColor: "#5ec992",
     borderRadius: "50%",
     display: "inline-block",
+    position: "absolute" as const,
+    top: "-3px",
+    left: "-9px",
   },
   actions: {
     display: "flex",
@@ -68,10 +72,11 @@ const styles = {
     opacity: 0.7,
   },
   profilePic: {
-    width: "36px",
-    height: "36px",
+    width: "30px",
+
     borderRadius: "50%",
-    backgroundColor: "#ccc",
+
+
     objectFit: "cover" as const,
   },
 };
@@ -107,9 +112,11 @@ export default function Header() {
         </Link>
       </nav>
       <div style={styles.actions}>
-        <div style={styles.icon}>⚙️</div>
+        <div style={styles.icon}>
+          <img src="/Setting.png" alt="Search" style={{ width: "30px",}}/>
+        </div>
         <img
-          src="https://i.pravatar.cc/150?img=11"
+          src="/Profile.png"
           alt="Profile"
           style={styles.profilePic}
         />
